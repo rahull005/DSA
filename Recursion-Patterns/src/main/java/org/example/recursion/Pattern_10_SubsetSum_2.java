@@ -6,7 +6,7 @@ import java.util.List;
         the main aim of this problem is we have to print all the possible subsets
         without repeating.
  */
-public class Pattern_9_SubsetSum_2 {
+public class Pattern_10_SubsetSum_2 {
     private static void SubsetSum2(int ind,  int[] arr, int n, List<Integer> ds, List<List<Integer>> output) {
         output.add(new ArrayList<>(ds));
 

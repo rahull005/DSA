@@ -1,10 +1,9 @@
 package org.example.recursion;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
-public class Pattern_8_SubsetSum_1 {
+public class Pattern_9_SubsetSum_1 {
     private static void SubsetSum1(int i, int sm, int[] arr, int n, List<Integer> output) {
         if(i == n){
             output.add(sm);
