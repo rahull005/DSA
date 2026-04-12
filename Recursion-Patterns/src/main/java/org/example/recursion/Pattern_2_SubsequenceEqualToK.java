@@ -3,7 +3,7 @@ package org.example.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Pattern_2_SubsequenceEqualToK {
+public class Pattern_2_SubsequenceSumEqualToK {
     private static void subsequencesSm(int i, List<Integer> ds, int sm, int k, int[] arr, int n, List<List<Integer>> output) {
         if(i == n){
             if(sm == k){
